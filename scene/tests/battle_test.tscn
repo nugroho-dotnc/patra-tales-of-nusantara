@@ -1,0 +1,99 @@
+[gd_scene format=3 uid="uid://dlgledycwodj2"]
+
+[ext_resource type="Script" uid="uid://ddhal4trs8vxl" path="res://scripts/presentation/battle_test.gd" id="1_ue1mr"]
+[ext_resource type="PackedScene" uid="uid://2m1asbfpcon" path="res://scene/components/hand_view.tscn" id="3_m8fcn"]
+[ext_resource type="PackedScene" uid="uid://cp5lce617g06x" path="res://scene/components/bench_view.tscn" id="3_ttjmq"]
+
+[node name="BattleTest" type="Control" unique_id=1164464881]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ue1mr")
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=170387997]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Layout" type="VBoxContainer" parent="CenterContainer" unique_id=1638382683]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="TitleLabel" type="Label" parent="CenterContainer/Layout" unique_id=864454579]
+layout_mode = 2
+text = "judul"
+
+[node name="ResourceLabel" type="Label" parent="CenterContainer/Layout" unique_id=1588623381]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Cakra: 3 / 3"
+horizontal_alignment = 1
+
+[node name="EnemyBenchView" parent="CenterContainer/Layout" unique_id=2016858985 instance=ExtResource("3_ttjmq")]
+layout_mode = 2
+
+[node name="BenchView" parent="CenterContainer/Layout" unique_id=1199917936 instance=ExtResource("3_ttjmq")]
+layout_mode = 2
+
+[node name="HandView" parent="CenterContainer/Layout" unique_id=1802737358 instance=ExtResource("3_m8fcn")]
+layout_mode = 2
+
+[node name="AllButtons" type="HBoxContainer" parent="CenterContainer/Layout" unique_id=694686286]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="CombatButtons" type="HBoxContainer" parent="CenterContainer/Layout/AllButtons" unique_id=1190452009]
+layout_mode = 2
+
+[node name="ConfirmBlockButton" type="Button" parent="CenterContainer/Layout/AllButtons/CombatButtons" unique_id=375066566]
+custom_minimum_size = Vector2(210, 56)
+layout_mode = 2
+text = "Konfirmasi Block"
+
+[node name="NoBlockButton" type="Button" parent="CenterContainer/Layout/AllButtons/CombatButtons" unique_id=370841672]
+custom_minimum_size = Vector2(180, 56)
+layout_mode = 2
+text = "Tanpa Block"
+
+[node name="Buttons" type="HBoxContainer" parent="CenterContainer/Layout/AllButtons" unique_id=303093000]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="DamageButton" type="Button" parent="CenterContainer/Layout/AllButtons/Buttons" unique_id=420116080]
+layout_mode = 2
+text = "Damage"
+
+[node name="HealButton" type="Button" parent="CenterContainer/Layout/AllButtons/Buttons" unique_id=703120536]
+layout_mode = 2
+text = "Heal"
+
+[node name="ResetButton" type="Button" parent="CenterContainer/Layout/AllButtons/Buttons" unique_id=1343071177]
+layout_mode = 2
+text = "Reset"
+
+[node name="AddUnitButton" type="Button" parent="CenterContainer/Layout/AllButtons/Buttons" unique_id=318361069]
+layout_mode = 2
+text = "Mainkan Kartu"
+
+[node name="DrawButton" type="Button" parent="CenterContainer/Layout/AllButtons/Buttons" unique_id=1291674441]
+visible = false
+custom_minimum_size = Vector2(140, 64)
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "uji Draw"
+
+[node name="PassButton" type="Button" parent="CenterContainer/Layout/AllButtons/Buttons" unique_id=688652215]
+custom_minimum_size = Vector2(200, 64)
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "Pass"
+
+[node name="AttackButton" type="Button" parent="CenterContainer/Layout/AllButtons/Buttons" unique_id=1566178894]
+layout_mode = 2
+text = "Serang"

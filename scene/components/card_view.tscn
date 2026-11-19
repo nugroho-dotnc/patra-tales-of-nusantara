@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://dtfss0srqv2vr"]
+
+[ext_resource type="Script" uid="uid://bfaytf8oyi864" path="res://scripts/presentation/card_view.gd" id="1_fsi1g"]
+
+[node name="CardView" type="PanelContainer" unique_id=1709409673]
+custom_minimum_size = Vector2(240, 180)
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_fsi1g")
+
+[node name="Content" type="VBoxContainer" parent="." unique_id=1422775134]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 6
+
+[node name="NameLabel" type="Label" parent="Content" unique_id=911079810]
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "Nama Kartu"
+
+[node name="DayaLabel" type="Label" parent="Content" unique_id=879342469]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Daya: ---"
+
+[node name="SukmaLabel" type="Label" parent="Content" unique_id=2134377793]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Sukma: ---"
+
+[node name="StatusLabel" type="Label" parent="Content" unique_id=1740211831]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Status Label: Belum ada Kartu"

@@ -1,0 +1,75 @@
+[gd_scene format=3 uid="uid://cp5lce617g06x"]
+
+[ext_resource type="Script" uid="uid://0ofsgoifwecs" path="res://scripts/presentation/bench_view.gd" id="1_tnty6"]
+
+[node name="BenchView" type="HBoxContainer" unique_id=2016858985]
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_constants/separation = 12
+script = ExtResource("1_tnty6")
+
+[node name="Slot1" type="PanelContainer" parent="." unique_id=810158911]
+custom_minimum_size = Vector2(180, 160)
+layout_mode = 2
+
+[node name="EmptyLabel" type="Label" parent="Slot1" unique_id=1997858559]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Slot 1 - Kosong"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Slot2" type="PanelContainer" parent="." unique_id=480055367]
+custom_minimum_size = Vector2(180, 160)
+layout_mode = 2
+
+[node name="EmptyLabel" type="Label" parent="Slot2" unique_id=1525355091]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Slot 2 - Kosong"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Slot3" type="PanelContainer" parent="." unique_id=1181343616]
+custom_minimum_size = Vector2(180, 160)
+layout_mode = 2
+
+[node name="EmptyLabel" type="Label" parent="Slot3" unique_id=964047124]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Slot 3 - Kosong"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Slot4" type="PanelContainer" parent="." unique_id=987254278]
+custom_minimum_size = Vector2(180, 160)
+layout_mode = 2
+
+[node name="EmptyLabel" type="Label" parent="Slot4" unique_id=1457050776]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Slot 4 - Kosong"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Slot5" type="PanelContainer" parent="." unique_id=732028856]
+custom_minimum_size = Vector2(180, 160)
+layout_mode = 2
+
+[node name="EmptyLabel" type="Label" parent="Slot5" unique_id=684199749]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Slot 5 - Kosong"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Slot6" type="PanelContainer" parent="." unique_id=1405243266]
+custom_minimum_size = Vector2(180, 160)
+layout_mode = 2
+
+[node name="EmptyLabel" type="Label" parent="Slot6" unique_id=333285613]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "Slot 6 - Kosong"
+horizontal_alignment = 1
+vertical_alignment = 1

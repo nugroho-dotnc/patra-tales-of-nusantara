@@ -1,0 +1,72 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+Ronde 1 dimulai.
+Dipilih: Anoman, biaya 3 Cakra.
+Dipilih: Jana Latihan, biaya 1 Cakra.
+Jana Latihan dimainkan ke slot 1
+Dipilih: Jana Latihan, biaya 1 Cakra.
+AI: Jana Latihan dimainkan ke slot 1
+Serangan di deklarasikan dengan 1 unit.
+AI: Block dikonfirmasi: p0_jana_1 menghadapi p1_jana_1.
+Pemain 0 Pass. Hitungan:  1.
+AI: Pemain 1 Pass. Hitungan:  2.
+Combat selesai.
+p0_jana_1 menerima 2; p1_jana_1 menerima 2 damage.
+AI: Pemain 1 Pass. Hitungan:  1.
+Pemain 0 Pass. Hitungan:  2.
+Ronde 2 dimulai.
+AI: Serangan di deklarasikan dengan 1 unit.
+Blocker kamu: p0_jana_1
+Block dikonfirmasi: p1_jana_1 menghadapi p0_jana_1.
+[{ "attacker_id": "p1_jana_1", "blocker_id": "p0_jana_1", "was_blocked": true }]
+AI: Pemain 1 Pass. Hitungan:  1.
+Pemain 0 Pass. Hitungan:  2.
+Combat selesai.
+p1_jana_1 menerima 2; p0_jana_1 menerima 2 damage.
+Ronde 1 dimulai.
+Dipilih: Anoman, biaya 3 Cakra.
+Dipilih: Jana Latihan, biaya 1 Cakra.
+Jana Latihan dimainkan ke slot 1
+Dipilih: Jana Latihan, biaya 1 Cakra.
+AI: Jana Latihan dimainkan ke slot 1
+Pemain 0 Pass. Hitungan:  1.
+AI: Pemain 1 Pass. Hitungan:  2.
+Ronde 2 dimulai.
+AI: Serangan di deklarasikan dengan 1 unit.
+Block dikonfirmasi: p1_jana_1 menghadapi tanpa blocker.
+[{ "attacker_id": "p1_jana_1", "blocker_id": "", "was_blocked": false }]
+AI: Pemain 1 Pass. Hitungan:  1.
+Pemain 0 Pass. Hitungan:  2.
+Combat selesai.
+Arca pemain 0 menerima 2 damage.
+Ronde 1 dimulai.
+Dipilih: Anoman, biaya 3 Cakra.
+Dipilih: Jana Latihan, biaya 1 Cakra.
+Jana Latihan dimainkan ke slot 1
+Dipilih: Jana Latihan, biaya 1 Cakra.
+AI: Jana Latihan dimainkan ke slot 1
+Serangan di deklarasikan dengan 1 unit.
+AI: Block dikonfirmasi: p0_jana_1 menghadapi tanpa blocker.
+Pemain 0 Pass. Hitungan:  1.
+AI: Pemain 1 Pass. Hitungan:  2.
+Combat selesai.
+Arca pemain 1 menerima 2 damage.
+Ronde 1 dimulai.
+Dipilih: Anoman, biaya 3 Cakra.
+Dipilih: Jana Latihan, biaya 1 Cakra.
+Jana Latihan dimainkan ke slot 1
+Dipilih: Jana Latihan, biaya 1 Cakra.
+AI: Jana Latihan dimainkan ke slot 1
+Pemain 0 Pass. Hitungan:  1.
+AI: Pemain 1 Pass. Hitungan:  2.
+Ronde 2 dimulai.
+AI: Serangan di deklarasikan dengan 1 unit.
+Block dikonfirmasi: p1_jana_1 menghadapi tanpa blocker.
+[{ "attacker_id": "p1_jana_1", "blocker_id": "", "was_blocked": false }]
+AI: Pemain 1 Pass. Hitungan:  1.
+Pemain 0 Pass. Hitungan:  2.
+Combat selesai.
+Arca pemain 0 menerima 2 damage.
+Ronde 1 dimulai.
+Dipilih: Anoman, biaya 3 Cakra.
+AI battle: 21 checks, 0 failures

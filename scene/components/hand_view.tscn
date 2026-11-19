@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://2m1asbfpcon"]
+
+[ext_resource type="Script" uid="uid://dq2gn0gdjrh8a" path="res://scripts/presentation/hand_view.gd" id="1_te2cb"]
+
+[node name="HandView" type="HBoxContainer" unique_id=1802737358]
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_constants/separation = 12
+script = ExtResource("1_te2cb")
